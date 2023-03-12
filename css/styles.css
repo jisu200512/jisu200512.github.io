@@ -1,0 +1,26 @@
+@import "reset.css";
+@import "variables.css";
+
+/*components*/
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+
+
+/*screens*/
+@import "screens/login.css";
+
+
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    height: 1000vh;
+    color: white;
+background-color: rgba(0, 0, 0, 0.9);}
+    
+.login-bg{
+    height: 100vh;
+    background-image:url("imgs/cherry-00.jpg");
+    background-position:0cm;
+    background-size:150%;
+    background-repeat:no-repeat;
+}
