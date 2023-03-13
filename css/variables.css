@@ -1,8 +1,7 @@
 :root{
     --red: #d43f47;
-    --grey: #2E363E;
-    --green: rgb(20, 67, 33);
-
-
-
+    --grey: rgba(255,255,255,0.3);
+    --green: rgb(29, 123, 65);
+    --horizontal-space: 25px;
+    --main-border : 1px solid var(--grey)
 }

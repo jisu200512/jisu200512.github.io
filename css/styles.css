@@ -4,11 +4,17 @@
 /*components*/
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
+@import "components/badge.css";
 
 
 /*screens*/
 @import "screens/login.css";
-
+@import "screens/friends.css";
+@import "screens/find.css";
+@import "screens/icon-row.css";
+@import "screens/more.css";
 
 
 body{
@@ -23,4 +29,8 @@ background-color: rgba(0, 0, 0, 0.9);}
     background-position:0cm;
     background-size:150%;
     background-repeat:no-repeat;
+}
+
+.main-screen {
+    padding: 0 var(--horizontal-space);
 }

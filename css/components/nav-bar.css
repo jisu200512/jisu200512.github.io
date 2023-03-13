@@ -12,9 +12,24 @@
 
 }
 .nav__link{
+    position: relative;
     color:inherit;
 }
 
 .nav__notification {
-    background-color: var(--green);
+    position: absolute;
+    left: 15px;
+    bottom: 10px;
 }
+
+.nav__dot {background-color: var(--green);
+    width: 5px;
+    height: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2.5px;
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    }

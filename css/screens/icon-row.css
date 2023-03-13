@@ -1,0 +1,37 @@
+.icon-row {
+    display: flex;
+    justify-content: space-between;
+  
+    padding-bottom: 25px;
+}
+.icon-row__icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.icon-row__icon i {
+    font-size: 40px;
+}
+
+.icon-row__icon span{
+    margin-top: 20px;
+}
+
+.Recommended-Recipes {
+    padding: 50px 0;
+    border-top: var(--main-border);
+    border-bottom: var(--main-border);
+}
+
+.Recommended-Recipes__title{
+    font-size: 12px;
+    color: var(--grey);
+    
+}
+
+.Recommended-Recipes span {
+    margin: 100px 0;
+    display: block;
+    text-align: center;
+}
